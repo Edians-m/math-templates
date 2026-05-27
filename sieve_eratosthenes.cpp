@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> sieve(int n){
+vector<int> sieve(int n) {
     vector<bool> isPrime(n+1,true);
     isPrime[0] = isPrime[1] = false;
 
@@ -19,7 +19,8 @@ vector<int> sieve(int n){
     return primes;
 }
 
-int main(){
+int main()
+{
     int n;
     cin >> n;
     vector<int> primes = sieve(n);
