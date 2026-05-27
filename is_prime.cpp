@@ -13,7 +13,8 @@ bool isPrime(int n) {
     return true;
 }
 
-int main() {
+int main()
+{
     int n;
     cin >> n;
     cout << (isPrime(n) ? "Yes" : "No") << endl;
