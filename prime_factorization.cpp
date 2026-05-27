@@ -18,7 +18,8 @@ void factorize(int n) {
     if(n > 1) cout << n << "^1" << endl;
 }
 
-int main() {
+int main()
+{
     int n;
     cin >> n;    //n >= 2
     factorize(n);
